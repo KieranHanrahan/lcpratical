@@ -1,0 +1,151 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #634caf;
+}
+
+div.fixed{
+    position: static;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+     padding: 14px 16px; 
+}
+
+
+
+
+
+
+
+div.pfixed{
+    position: static;
+    bottom: 320px;
+    left: 0px;
+    font-size: 30px;
+    color: black
+}
+
+
+img{
+     border-radius: 4px;
+}
+
+body {background-color: lightgrey;}
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #4B4B4D;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow:<br> 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+<body><img src="middle earth.jpg" alt="Talion" style="width:960px;height:540px;"></body>
+
+
+
+
+}
+.btn-primary.active {
+ color: white;
+ background-color: #A0C4E2 ;
+ border-color: #A0C4E2;
+}
+.btn-primary {
+   color: white;
+   background-color: #B3C5D7;
+   border-color: #B3C5D7;
+}
+.btn-primary:hover:not(.active) {
+   color: white;
+   background-color:#C1CAD6 ;
+   border-color:#C1CAD6;
+}
+
+
+
+
+btn btn-primary {
+    float= right;
+}
+
+
+img {
+    padding:1em
